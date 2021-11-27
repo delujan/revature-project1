@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styling/manager.css">
+    <title>Manager Homepage</title>
+</head>
+<body>
+    <h1>Manager Portal</h1>
+	<ul class="nav nav-pills nav-fill">
+		<li class="nav-item">
+		  <a class="nav-link active" aria-current="page" href="manager.html">Home</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="reimhistory.html">Reimbursement History</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="stats.html">Statistics Page</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="index.html">Logout</a>
+		</li>
+	  </ul>
+    <section id="top">
+        <h4>Pending Reimbursement Requests</h4>
+            <table class = "table table-striped">
+            	<tr class = "rb-info">
+            	<thead class = "thead-dark">
+            	<th>Reimbursement Id</th>
+            	<th>Employee Id</th>
+            	<th>Amount</th>
+            	<th>Type</th>
+            	<th>Date of Request</th>
+            	<th>Status</th>
+            	</thead>
+            	</tr>
+            	<tbody id="pendingTable">
+            	
+            	</tbody>
+            </table>
+    </section>
+    <section>
+	<form class="form" id="resform" action="/update" method="post">
+		<label for="r_id">Enter reimbursement ID:</label>
+        <input type="number" id="r_id" name="r_id" min="0" step="1" placeholder="0"required>
+        
+        <label for="status">Select response:</label>
+        <select name="status" id="status" required>
+            <option value="APPROVED">Approve Request</option>
+            <option value="DENIED">Deny Request</option>
+		</select>
+		<button>Submit</button>
+	</form>
+	</section>
+    <script src="/logic/pending.js"></script>
+</body>
+</html>
