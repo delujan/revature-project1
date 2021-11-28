@@ -68,5 +68,5 @@ View Reimbursement Request History:
 
 View Statistics Page:
 
-![Statistics](./P1ManagerStatisticsPage)
+![Statistics](./P1ManagerStatisticsPage.png)
 
