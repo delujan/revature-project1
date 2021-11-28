@@ -3,7 +3,7 @@
 ## Description
 This application allows all Employees to login to their account and submit reimbursement requests for expenses incurred while on company time. Employees are also able to view their entire request history while logged in.
 
-Managers are able to login and view all reimbursement requests for all Employees. They are also able to specify which Employee reimbursement history to view. Managers are authorized to approve or deny any expense reimbursement request.
+Managers are able to login and view all reimbursement requests for all Employees. They are authorized to approve or deny any expense reimbursement request. They are able to view a Statistics page that shows Reimbursement stats.
 
 
 ## Technologies Used
