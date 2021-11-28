@@ -64,9 +64,9 @@ Manager Home Page:
 
 View Reimbursement Request History:
 
-![Manager_History](./P1ManagerRequestHistoryPage.png)
+![Manager History](./P1Screenshots/P1ManagerRequestHistoryPage.png)
 
 View Statistics Page:
 
-![Statistics](./P1ManagerStatisticsPage.png)
+![Statistics](./P1Screenshots/P1ManagerStatisticsPage.png)
 
